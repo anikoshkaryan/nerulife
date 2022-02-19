@@ -1,0 +1,903 @@
+//categories
+
+.categories{
+    width: 100%;
+    margin-bottom: 46px;
+    .categories_wrapper{
+        width: 100%;
+        max-width: 1172px;
+        margin: 0 auto;
+    }
+    .categories_title{
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        margin-bottom: 18px;
+    }
+    .categories_images_items_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .categories_image_item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 380px;
+        height: 155px;
+    }
+    .categories_image_item_text_title {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 31px;
+        color: #470000;
+        margin-bottom: 4px;
+    }
+    .categories_image_item_text {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: #470000;
+        opacity: 0.6;
+    }
+    .categories_image_item_title{
+        padding-bottom: 38px;
+    }
+    #first_image_item {
+        background: #FFEDED;
+        border-radius: 6px;
+        padding-top: 25px;
+        padding-left: 35px;
+
+      
+    }
+    #second_image_item {
+        background: #FFF6D6;
+        border-radius: 6px;
+        padding-top: 25px;
+        padding-left: 35px;
+    }
+    #third_image_item {
+        background: #EDF1FF;
+        border-radius: 6px;
+        padding-top: 25px;
+        padding-left: 35px;
+    }
+    .categories_links_items_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .categories_link_item {
+        max-width: 260px;
+        width: 100%;
+    }
+    .categories_link_item_link {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: #282A2B;
+        text-decoration: none;
+        margin-right: 5px;
+        
+    }
+    .categories_link_item_span {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #C4C4C4;
+        
+    }
+    .categories_link_item_span_link_wrapper {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+}
+
+.categories_line{
+    width: 100%;
+    max-width: 1172px;
+    height: 1px;
+    border: 1px solid #EBEDF3;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+//lost_and_found
+.lost_and_found{
+    width: 100%;
+    margin-bottom: 37px;
+    .lost_and_found_wrapper{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1172px;
+    
+    }
+    .lost_and_found_slider_line_wrapper{
+        max-width: 864px;
+        width: 100%;
+    }
+    .lost_and_found_items_wrapper{
+        display: flex;
+        justify-content: space-between;
+       
+    }
+        .lost_and_found_title {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            color: #000000;
+            margin-bottom: 21px;
+        }
+        .lost_and_found_slider_item{
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           margin-bottom: 46px;
+          
+          
+        }
+        .swiper-slide {
+            // max-width:210px;
+            // width: 100%;
+            background: #FFFFFF;
+            border: 1px solid #EBEDF3;
+            box-sizing: border-box;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        .lost_and_found_link_img img{
+            width: 100%;
+            object-fit: cover;
+        }
+        .lost_and_found_link_text {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 18px;
+            color: #282A2B;
+            margin-bottom: 4px;
+            text-decoration: none;
+        }
+        .lost_and_found_link{
+            text-decoration: none;
+        }
+        .lost_and_found_link_text_num_wrapper{
+            padding: 15px 18px;
+        }
+        .lost_and_found_link_text_num {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            color: #A4AAB2;
+        }
+        .swiper-button-next{
+            width: 36px;
+            height: 36px;
+            background: #FFFFFF;
+            border: 1.5px solid #D2D4D9;
+            box-sizing: border-box;
+            box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.08);
+            border-radius: 30px;
+            background-image: url(../images/arrow_slide_prev.svg);
+            background-repeat: no-repeat;
+            background-size: 11px 20px;
+            background-position: center;
+            
+        }
+        .swiper-button-next::after{
+            display: none;
+        }
+        .swiper-button-prev{
+            width: 36px;
+            height: 36px;
+            background: #FFFFFF;
+            border: 1.5px solid #D2D4D9;
+            box-sizing: border-box;
+            box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.08);
+            border-radius: 30px;
+            background-image: url(../images/arrow_slide_prev.svg);
+            background-repeat: no-repeat;
+            background-size: 11px 20px;
+            background-position: center;
+            transform: rotate(180deg);
+            
+        }
+        .swiper-button-prev::after{
+            display: none;
+        }
+        .lost_and_found_aside_item {
+            max-width: 281px;
+            width: 100%;
+            height: 274px;
+            background: #F5F6FA;
+            border-radius: 6px;
+            padding: 26px;
+        }
+        .lost_and_found_aside_item_title {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 19px;
+            color: #282A2B;
+            margin-bottom: 12px;
+        }
+        .lost_and_found_aside_item_sign_text_wrapper {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+        .lost_and_found_aside_item_sign_text {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #828892;
+            margin-left: 5px;
+        }
+        .lost_and_found_aside_item_svg_title_main_wrapper {
+            margin-bottom: 30px;
+         
+        }
+        .lost_and_found_aside_item_btn {
+            background: #282A2B;
+            border-radius: 6px;
+            width: 150px;
+            padding: 15px 19px;
+            cursor: pointer;
+            text-decoration: none;
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+            display: block;
+            overflow: hidden;
+        }
+        .lost_and_found_line {
+            max-width: 864px;
+            width: 100%;
+            height: 1px;
+            border: 1px solid #EBEDF3;
+        
+        }
+}
+
+
+//new_announcements
+.new_announcements{
+    width: 100%;
+    margin-bottom: 70px;
+    position: relative;
+    .new_announcements_wrapper{
+        max-width: 1172px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .hidden_add_svg{
+        display: none;
+    }
+    .new_announcements_item_links {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .new_announcements_item_link {
+        width: 24%;
+        max-width: 210px;
+        margin-bottom: 16px;
+        height: 310x;
+        background: #FFFFFF;
+        border: 2px solid #EBEDF3;
+        box-sizing: border-box;
+        border-radius: 6px;
+        overflow: hidden;
+        text-decoration: none;
+        cursor: pointer;
+        margin-right: 8px;
+        position: relative;
+    }
+    .new_announcements_title_link_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 21px;
+    }
+    .new_announcements_title_link_wrapper {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+    .new_announcements_title_link {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #41B858;
+        text-decoration: none;
+        cursor: pointer;
+        display: flex;
+    align-items: center;
+    }
+    .new_announcements_title_link  svg{
+        margin-right: 9px;
+    }
+    .new_announcements_item_link_texts_wrapper {
+        padding: 20px;
+    }
+    .new_announcements_item_link_text_number {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #282A2B;
+        margin-bottom: 3px;
+    }
+    .new_announcements_item_link_text_info {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #282A2B;
+        margin-bottom: 7px;
+    }
+    .new_announcements_item_link_text_title {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        color: #A4AAB2;
+    }
+    .vip_btn {
+        width: 63px;
+        height: 27px;
+        border: none;
+        background: #7723FF;
+        border-radius: 6px 0px;
+       cursor: pointer;
+       position: absolute;
+       top: 0;
+       left: 0;
+       z-index: 10;
+        visibility: hidden;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        color: #FFFFFF;
+    }
+
+
+    .new_announcements_items_links_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .new_announcements_title_link_wrapper {
+        max-width: 864px;
+        width: 100%;
+    }
+    .new_announcements_item_links {
+        max-width: 864px;
+        width: 100%;
+    }
+    .new_announcements_item_link_btn {
+        max-width: 864px;
+        width: 100%;
+        height: 68px;
+        background: #F5F6FA;
+        border-radius: 6px;
+        border: none;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #55585D;
+        cursor: pointer;
+    }
+    .new_announcements_item_link_btn_wrapper{
+        width: 100%;
+    }
+    .new_announcements_item_link.active{
+        background: #EAE7FF;
+        border: 2px solid #DABCFF;
+    }
+
+    .new_announcements_item_link.active .new_announcements_item_link_text_info{
+        color: #41B858;
+    }
+    .new_announcements_item_link.active .vip_btn {
+        visibility: visible;
+    }
+    .new_announcements_item_link:hover{
+        background: #EAE7FF;
+        border: 2px solid #DABCFF;
+    }
+    .new_announcements_item_link:hover .new_announcements_item_link_text_info{
+        color: #41B858;
+    }
+    //  .new_announcements_item_link:visited{
+    //     background: #FFF8E7;
+    //     border: 1px solid #F1E2CA;
+    //  }
+    .new_announcements_item_link:hover .vip_btn {
+        visibility: visible;
+    }
+
+    .new_announcements_item_link_img  img{
+       width: 100%;
+       height: 100%;
+    }
+}
+
+
+@media(max-width:1250px){
+    .categories_wrapper {
+        width: 93%!important;
+    }
+    .categories_line {
+        width: 97%!important;
+    }
+    .lost_and_found_wrapper {
+        width: 93%!important;
+    }
+ 
+    .new_announcements_wrapper {
+        width: 93%!important;
+        
+    }
+  
+}
+
+@media (min-width:651px) and (max-width:1250px){
+    
+    .categories .categories_image_item {
+        width: 32%!important;
+      
+    }
+  
+}
+
+@media (min-width:851px) and (max-width:1250px){
+    .lost_and_found_slider_line_wrapper {
+        margin-right: 15px;
+    }
+}
+@media (min-width:497px) and (max-width:650px){
+    
+     .categories_image_item {
+        width: 48%!important;
+        margin-bottom: 20px;
+        max-width: unset!important;
+      
+    }
+    .categories_images_items_wrapper {
+        flex-wrap: wrap;
+    }
+  
+}
+@media (max-width:496px){  
+    .categories_image_item {
+       width: 100%!important;
+       margin-bottom: 20px;
+       max-width: unset!important;
+       height: 190px!important;
+     
+   }
+   .categories_images_items_wrapper {
+       flex-wrap: wrap;
+   }
+ 
+}
+
+@media (min-width:700px) and (max-width:1250px){
+    #first_image_item .categories_image_item_img img{
+        width: 120px!important;
+    }
+    #second_image_item .categories_image_item_img img{
+        width: 90px!important;
+    }
+    #third_image_item .categories_image_item_img img{
+        width: 140px!important;
+    }
+}
+
+@media (max-width:699px) {
+    #first_image_item .categories_image_item_img img{
+        width: 100px!important;
+    }
+    #second_image_item .categories_image_item_img img{
+        width: 70px!important;
+    }
+    #third_image_item .categories_image_item_img img{
+        width: 120px!important;
+    }
+    .categories_image_item_text {
+        font-size: 13px!important;
+    }
+    .categories_image_item_text_title {
+        font-size: 22px!important;
+    }
+}
+@media (min-width:1029px) and (max-width:1180px){
+    #first_image_item, #second_image_item, #third_image_item{
+        padding-left: 15px!important;
+        padding-top: 15px!important;
+    }
+    .categories_image_item_title {
+        padding-bottom: 10px!important;
+    }
+}
+
+@media (min-width:700px) and (max-width:1110px){
+    .categories_image_item_text {
+        font-size: 13px!important;
+    }
+    .categories_image_item_text_title {
+        font-size: 24px!important;
+    }
+}
+
+@media (min-width:497px) and (max-width:1028px){
+    .categories_image_item {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 225px!important;
+    }
+}
+
+@media(max-width:1028px){
+   
+    .categories_image_item_text_title {
+        text-align: center;
+    }
+    .categories_image_item_text {
+       text-align: center;
+    }
+    #first_image_item, #second_image_item, #third_image_item{
+        padding-left: 15px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+        padding-right: 15px!important;
+    }
+    .categories_image_item_title {
+        padding-bottom: unset!important;
+    }
+}
+
+@media(min-width:996px) and (max-width:1160px){
+    .categories_link_item {
+        max-width: unset!important;
+        width: unset!important;
+    }
+}
+
+
+@media(max-width:1135px){
+    .categories_link_item_link {
+        font-size: 13px!important;
+}
+.categories_link_item_span{
+    font-size: 13px!important;
+}
+}
+
+@media(min-width:776px) and (max-width:995px){
+    .categories_links_items_wrapper {
+        flex-wrap: wrap;
+    }
+    .categories_link_item {
+        max-width: unset!important;
+        width: 33%!important;
+        margin-bottom: 25px;
+    }
+    .categories { 
+        margin-bottom: 25px!important;
+    }
+}
+
+@media(min-width:497px) and (max-width:775px){
+    .categories_links_items_wrapper {
+        flex-wrap: wrap;
+    }
+    .categories_link_item {
+        max-width: unset!important;
+        width: 48%!important;
+        margin-bottom: 25px;
+    }
+    .categories { 
+        margin-bottom: 25px!important;
+    }
+}
+
+
+@media(max-width:496px){
+    .categories_links_items_wrapper {
+        flex-wrap: wrap;
+        justify-content: center!important;
+        align-items: center;
+    }
+    .categories_link_item {
+        max-width: unset!important;
+        width: 100%!important;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .categories { 
+        margin-bottom: 25px!important;
+    }
+}
+
+
+@media (min-width:851px) and (max-width:1210px){
+    .lost_and_found_slider_line_wrapper {
+        max-width: unset!important;
+        width: 70%!important;
+    }
+    .lost_and_found_slider_item {
+        width: 97%!important;
+    }
+    .lost_and_found_aside_item {
+      
+        padding: 30px 20px!important;
+        max-width: unset!important;
+        width: 50%!important;
+      }
+      .lost_and_found_items_wrapper {
+        justify-content: unset!important;
+    }
+  
+    
+    
+}
+
+
+@media (min-width:1211px) and (max-width:1250px){
+    .lost_and_found_aside_item {
+        height: 290px!important;
+      }
+}
+
+
+@media(max-width:1230px){
+    .lost_and_found_line{
+        width: 100%!important;
+    }
+}
+
+
+@media(max-width:1007px){
+    .lost_and_found_aside_item_title {
+        font-size: 17px!important;
+    }
+    .lost_and_found_aside_item_btn {
+        width: 130px!important;
+        padding: 10px 18px!important;
+        font-size: 14px!important;
+    }
+    .lost_and_found_aside_item_sign_text {
+        font-size: 13px!important;
+    }
+}
+
+
+@media (min-width:471px) and (max-width:850px){
+    .lost_and_found_items_wrapper {
+        flex-direction: column-reverse;
+    }
+    
+
+.lost_and_found_aside_item {
+    margin-bottom: 30px;
+    max-width: unset!important;
+    width: 60%!important;
+   
+}
+}
+
+
+@media(max-width:470px){
+    .lost_and_found_items_wrapper {
+        flex-direction: column-reverse;
+    }
+    
+
+.lost_and_found_aside_item {
+    margin-bottom: 30px;
+    max-width: unset!important;
+    width: 100%!important;
+   
+}
+
+}
+
+
+@media(max-width:1240px){
+    .new_announcements_item_links {
+        margin-right: 10px;
+    }
+}
+
+@media(min-width:989px) and (max-width:1171px){
+    .new_announcements_item_link {
+        width: 31%!important;
+        max-width: unset!important;
+    }
+ 
+}
+
+
+
+@media (min-width:471px) and (max-width:988px) {
+    .new_announcements_item_link {
+        width: 48%!important;
+        max-width: unset!important;
+    }
+   
+}
+
+
+@media (max-width:470px)  {
+    .new_announcements_item_link {
+        width: 100%!important;
+        max-width: unset!important;
+        margin-right: unset!important;
+    }
+  
+}
+
+
+@media (min-width:644px) and (max-width:850px){
+    .new_announcements_item_small_wrapper img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .new_announcements_item_small_wrapper{
+        width: 281px;
+    }
+}
+
+@media(max-width:643px){
+    .new_announcements_items_links_wrapper {
+        flex-direction: column;
+    }
+
+
+.new_announcements_item_small_wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.new_announcements_item_link_btn_wrapper {
+    margin-bottom: 30px;
+}
+}
+
+
+@media(max-width:525px){
+    .new_announcements_title_link_wrapper {
+       font-size: 22px!important;
+    }
+    .new_announcements_title_link {
+        font-size: 14px!important;
+    }
+    .new_announcements_title_link svg {
+        width: 20px!important;
+        height: 20px!important;
+
+    }
+}
+
+@media(max-width:470px){
+    .hidden_add_svg{
+        display: block!important;
+    }
+    .new_announcements_title_link{
+        display: none!important;
+    }
+}
+
+@media(max-width:370px){
+    .hidden_add_svg svg {
+        height: 20px!important;
+        width: 20px!important;
+    }
+}
+
+
+@media(max-width:425px){
+    .new_announcements_item_link_btn {
+        height: 50px!important;
+        font-size: 14px!important;
+}
+.categories_title {
+    font-size: 22px!important;
+    margin-bottom: 12px!important;
+}
+.lost_and_found_title{
+    font-size: 22px!important;
+    margin-bottom: 12px!important; 
+}
+}
+
+
+.new_announcements_pictures_wrapper {
+    width: 100%;
+    display: flex;
+    margin-bottom: 34px;
+}
+
+.new_announcements_pictures {
+    max-width: 422px;
+    width: 100%;
+}
+
+.new_announcements_pictures:not(:last-child){
+    margin-right: 8px;
+}
+
+.new_announcements_pictures img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.new_announcements_append_item.hidden {
+    display: none;
+}
+
+
+.new_announcements_append_item{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.new_announcements_item_link_btn:active, .new_announcements_item_link_btn:focus {
+    outline: none;
+}
+
+@media(max-width:1130px){
+    .new_announcements_pictures_wrapper {
+        margin-bottom: 15px!important;
+    }
+}
+
+@media(max-width:600px){
+    .new_announcements_pictures_wrapper {
+        flex-direction: column;
+    }
+    .new_announcements_pictures {
+        max-width: unset!important;
+        margin-right: unset!important;
+        width: 100%;
+    }
+}

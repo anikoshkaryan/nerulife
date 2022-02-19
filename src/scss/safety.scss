@@ -1,0 +1,550 @@
+
+
+//safety_regulations
+.about_us_links_wrapper {
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+}
+.about_us_link:hover{
+    color: #A4AAB2;
+}
+.about_us_links_wrapper svg{
+    margin: 0 5px;
+}
+.about_us_link {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282A2B;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.safety_regulations {
+    width: 100%;
+    max-width: 1073px;
+    margin: 0 auto;
+    margin-bottom: 79px;
+    position: relative;
+    right: 42px;
+}
+
+.safety_regulations_title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.safety_regulations_info {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #282A2B;
+}
+.safety_regulations_title_info_wrapper {
+    margin-bottom: 50px;
+}
+
+.safety_regulations_items_step_num {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 53px;
+    color: #D2D4D9;
+    margin-bottom: 5px;
+}
+
+.safety_regulations_items_step_title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.safety_regulations_items_step_info {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: #282A2B;
+}
+.safety_regulations_items_step {
+    margin-bottom: 29px;
+}
+.safety_regulations_line {
+    max-width: 1073px;
+    width: 100%;
+    height: 1px;
+    border: 1px solid #EBEDF3;
+    margin-bottom: 27px;
+}
+
+
+//popular_schemes
+.popular_fraud_schemes{
+    width: 100%;
+    margin-bottom: 73px;
+}
+.popular_fraud_schemes_wrapper {
+    max-width: 1340px;
+    margin: 0 auto;
+    width: 100%;
+}
+.popular_fraud_schemes_title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 1162px;
+    width: 100%;
+}
+.popular_fraud_schemes_item_img_title_wrapper {
+    max-width: 1340px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 209px;
+    align-items: center;
+    background: #F6F6F6;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.scheme_title_info {
+    padding: 35px 0 35px 84px;
+}
+
+.popular_fraud_schemes_item_title_small {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #828892;
+    margin-bottom: 34px;
+}
+
+.popular_fraud_schemes_item_title_big {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #000000;
+}
+
+.popular_fraud_schemes_item {
+    margin-bottom: 40px;
+}
+
+.popular_fraud_schemes_item_info {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #282A2B;
+    max-width: 1073px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#first_popular_item_img {
+    position: relative;
+    bottom: 42px;
+}
+
+#second_popular_item_img {
+    position: relative;
+    bottom: 11px;
+}
+
+#third_popular_item_img {
+    position: relative;
+    bottom: 15px;
+}
+#four_popular_item_img{
+    position: relative;
+    bottom: 10px;
+}
+#five_popular_item_img {
+    position: relative;
+    top: 15px;
+}
+
+@media(max-width:1230px){
+    .safety_regulations {
+        width: 93%!important;
+    }
+}
+
+@media(max-width:1200px){
+    .safety_regulations {
+       position: unset!important;
+       right: unset!important;
+    }
+
+
+
+}
+
+@media (min-width:426px) and (max-width:580px){
+    .safety_regulations_title {
+        font-size: 28px!important;
+    }
+    .popular_fraud_schemes_title {
+        margin-bottom: 30px!important;
+        font-size: 28px!important;
+    }
+    .safety_regulations_info {
+        font-size: 18px!important;
+    }
+    .safety_regulations_title_info_wrapper {
+        margin-bottom: 35px!important;
+    }
+    .safety_regulations_items_step_num {
+        font-size: 35px!important;
+    }
+    .safety_regulations_items_step_info {
+        font-size: 16px!important;
+    }
+}
+
+
+@media (min-width:371px) and (max-width:425px){
+    .safety_regulations_title {
+        font-size: 26px!important;
+        line-height: unset!important;
+    }
+}
+
+@media (max-width:370px){
+    .safety_regulations_title {
+        font-size: 24px!important;
+        line-height: unset!important;
+    }
+}
+
+@media (max-width:425px){
+ 
+    .popular_fraud_schemes_item_title_small {
+        margin-bottom: 15px!important;
+    }
+    .popular_fraud_schemes_title {
+        margin-bottom: 20px!important;
+        font-size: 26px!important;
+    }
+    .popular_fraud_schemes_item_info {
+        font-size: 14px!important;
+    }
+    .safety_regulations_info {
+        font-size: 16px!important;
+    }
+    .safety_regulations_title_info_wrapper {
+        margin-bottom: 25px!important;
+    }
+    .safety_regulations_items_step_num {
+        font-size: 30px!important;
+    }
+    .safety_regulations_items_step_info {
+        font-size: 14px!important;
+    }
+    .safety_regulations {
+       margin-bottom: 50px!important;
+    
+}
+
+}
+
+
+@media(max-width:1420px){
+    .popular_fraud_schemes_wrapper {
+        width: 93%!important;
+    }
+}
+
+
+
+@media (min-width:820px) and (max-width:1000px){
+    .popular_fraud_schemes_item_title_big {
+        font-size: 32px!important;
+    }
+    .scheme_title_info {
+        padding: 35px 0 35px 40px!important;
+    }
+}
+
+@media (min-width:471px) and (max-width:819px){
+    .popular_fraud_schemes_item_title_big {
+        font-size: 30px!important;
+    }
+    
+}
+
+@media (min-width:371px) and (max-width:470px) {
+    .popular_fraud_schemes_item_title_big {
+        font-size: 26px!important;
+    }
+    
+}
+@media (max-width:370px)  {
+    .popular_fraud_schemes_item_title_big {
+        font-size: 24px!important;
+    }
+    
+}
+@media (min-width:761px) and (max-width:819px){
+  
+    .scheme_title_info {
+        padding: 35px 0 35px 20px!important;
+    }
+}
+@media (min-width:781px) and (max-width:1000px){
+    #five_popular_item_img img {
+        width: 380px!important;
+    }
+    #five_popular_item_img {
+        position: relative;
+        top: -13px!important;
+    }
+    
+     .popular_fraud_schemes_item_img_title_wrapper {
+         height: unset!important;
+        
+    }
+
+    #first_popular_item_img img {
+        width: 350px!important;
+    }
+    #first_popular_item_img {
+        bottom: -2px!important;
+    }
+    
+  
+
+    #second_popular_item_img img {
+        width: 400px!important;
+    }
+    #second_popular_item_img {
+        position: relative;
+        bottom: -5px!important;
+    }
+    #four_popular_item_img img {
+        width: 280px!important;
+    }
+    #four_popular_item_img  {
+        bottom: -7px!important;
+    }
+
+    #third_popular_item_img img {
+        width: 370px!important;
+    }
+    #third_popular_item_img {
+        position: relative;
+        bottom: -1px!important;
+    }
+
+}
+    
+
+@media (min-width:761px) and  (max-width:780px) {
+    #five_popular_item_img img {
+        width: 340px!important;
+    }
+    #five_popular_item_img {
+        position: relative;
+        top: -20px!important;
+    }
+    
+     .popular_fraud_schemes_item_img_title_wrapper {
+         height: unset!important;
+        
+    }
+
+    #first_popular_item_img img {
+        width: 300px!important;
+    }
+    #first_popular_item_img {
+        bottom: -2px!important;
+    }
+    
+  
+
+    #second_popular_item_img img {
+        width: 350px!important;
+    }
+    #second_popular_item_img {
+        position: relative;
+        bottom: -11px!important;
+    }
+    #four_popular_item_img img {
+        width: 230px!important;
+    }
+    #four_popular_item_img  {
+        bottom: -38px!important;
+    }
+
+    #third_popular_item_img img {
+        width: 320px!important;
+    }
+    #third_popular_item_img {
+        position: relative;
+        bottom: -1px!important;
+    }
+
+}
+    
+@media (min-width:381px) and (max-width:760px){
+    .popular_fraud_schemes_item_img_title_wrapper {
+        flex-direction: column-reverse;
+    }
+    #five_popular_item_img img {
+        width: 340px!important;
+    }
+    #five_popular_item_img {
+        position: relative;
+        bottom: unset!important;
+        top: -29px!important;
+    }
+    
+     .popular_fraud_schemes_item_img_title_wrapper {
+         height: unset!important;
+        
+    }
+
+    #first_popular_item_img img {
+        width: 300px!important;
+    }
+    // #first_popular_item_img {
+    //     bottom: -2px!important;
+    // }
+    
+  
+
+    #second_popular_item_img img {
+        width: 350px!important;
+    }
+    #second_popular_item_img {
+        position: relative;
+        bottom: unset!important;
+        
+    }
+    #four_popular_item_img img {
+        width: 230px!important;
+    }
+    #four_popular_item_img  {
+        bottom: unset!important;
+      
+    }
+
+    #third_popular_item_img img {
+        width: 320px!important;
+    }
+    #third_popular_item_img {
+        position: relative;
+        bottom: -1px!important;
+      
+    }
+    #six_schemes_img img{
+        width: 350px!important;
+    }
+    #six_schemes_img {
+        position: relative;
+        
+    }
+    .scheme_title_info{
+        padding: unset!important;
+    }
+    .popular_fraud_schemes_item_img_title_wrapper {
+        padding: 30px 20px;
+    }
+    .popular_fraud_schemes_item_img{
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width:380px) and (max-width:760px){
+    .popular_fraud_schemes_item_img_title_wrapper {
+        flex-direction: column-reverse;
+    }
+    #five_popular_item_img img {
+        width: 280px!important;
+    }
+    #five_popular_item_img {
+        position: relative;
+        bottom: unset!important;
+        top: -29px!important;
+    }
+    
+     .popular_fraud_schemes_item_img_title_wrapper {
+         height: unset!important;
+        
+    }
+
+    #first_popular_item_img img {
+        width: 280px!important;
+    }
+    // #first_popular_item_img {
+    //     bottom: -2px!important;
+    // }
+    
+  
+
+    #second_popular_item_img img {
+        width: 280px!important;
+    }
+    #second_popular_item_img {
+        position: relative;
+        bottom: unset!important;
+        
+    }
+    #four_popular_item_img img {
+        width: 180px!important;
+    }
+    #four_popular_item_img  {
+        bottom: unset!important;
+      
+    }
+
+    #third_popular_item_img img {
+        width: 280px!important;
+    }
+    #third_popular_item_img {
+        position: relative;
+        bottom: -1px!important;
+      
+    }
+    #six_schemes_img img{
+        width: 280px!important;
+    }
+    #six_schemes_img {
+        position: relative;
+        
+    }
+    .scheme_title_info{
+        padding: unset!important;
+    }
+    .popular_fraud_schemes_item_img_title_wrapper {
+        padding: 30px 20px;
+    }
+    .popular_fraud_schemes_item_img{
+        margin-bottom: 20px;
+    }
+}
